@@ -6,7 +6,7 @@ import {io} from "socket.io-client";
 
 
 
-const BASE_URL= import.meta.env.MODE==="development"? "http://localhost:5001":"/"
+const BASE_URL= import.meta.env.MODE==="development"? "https://chat-app-three-snowy-79.vercel.app/":"/"
 
 export const useAuthStore =create ((set, get)=>({
     authUser:null,
