@@ -5,7 +5,7 @@ import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import SettingsPage from "./pages/SettingsPage";
 import ProfilePage from "./pages/ProfilePage";
-import { useThemestore } from "./store/usethemestore";
+import { useThemeStore } from "./store/useThemeStore";
 
 import {Routes, Route} from "react-router-dom";
 import { useAuthStore } from "./store/useAuthStore";
